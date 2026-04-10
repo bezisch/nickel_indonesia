@@ -1,0 +1,41 @@
+CONFLICT TYPE DEFINITIONS
+============================================================
+
+env_health
+----------
+Definition  : Conflicts arising from the environmental and public health impacts of nickel-related activities, including extraction, processing, and waste disposal.
+Signals     : pollution (air/water/soil); deforestation, biodiversity loss; tailings leakage; deep-sea tailings disposal; contaminated rivers or seas; health risks to nearby communities; ecological destruction; toxic exposure
+Key actors  : mining/smelting companies; local government; local communities; ecosystem/wildlife; environmental NGOs; environmental activists
+Include when: environmental harm is the primary unjust act, and the narrative focuses on ecological damage, pollution, or bodily harm to nearby populations from environmental exposure
+Exclude when: environmental issues are mentioned only as background to a broader dispute over industrial policy, trade, elections, or state repression; Code it as Labour & Social Conflicts when the primary harm concerns worker safety, occupational exposure, or workplace conditions rather than broader ecological or community health damage. Code the snippet as Governance & Corruption Conflicts when the central issue is state failure, weak enforcement, permit manipulation, illegal licensing, land acquisition disputes, or repression of protest.
+
+labour_social
+-------------
+Definition  : Conflicts primarily arises from labor relations, workplace conditions, employment practices, and social tensions linked to nickel-related industries, including interactions between workers, firms, and local communities.
+Signals     : workplace accidents or deaths; unsafe working conditions; wage disputes; strikes; labor protests; subcontracting abuse; excessive working hours; migrant versus local worker tensions; forced labor allegations; clashes between workers and firms or among worker groups
+Key actors  : workers (local and migrant); Chinese workers; companies; subcontractors; unions; local communities when directly involved in labor-related tensions; police/security only as secondary actors
+Include when: the conflict originates from labor relations, workplace conditions, employment inequality, or worker-community social tension around the project
+Exclude when: violence or coercion is primarily framed as repression by police, military, or state authorities rather than as a labor dispute; then code as Governance & Corruption Conflicts instead
+
+governance_corruption
+---------------------
+Definition  : Conflicts related to state authority, legal frameworks, regulatory enforcement, and the exercise (or abuse) of political power in managing nickel-related activities.
+Signals     : permit manipulation; corruption; bribery; weak enforcement; illegal mining; land acquisition disputes; eviction; land tenure conflict; police brutality; military presence; repression of protests; civic space restrictions; criminalisation of dissent; official complicity; regulatory failure
+Key actors  : central or local government institutions; police; military; regulator; NGOs; local community
+Include when: the conflict centers on legality, state conduct, procedural justice, coercion, corruption, or failure of governance
+Exclude when: the core dispute is about workplace conditions or wage grievances without state repression as the main mechanism; then code as Labour & Social Conflicts instead
+
+economic_industrial
+-------------------
+Definition  : Conflicts in which the primary issue is market competition, industrial policy design, trade effects, price formation, or the distribution of economic benefits within the nickel value chain.
+Signals     : export ban/downstreaming uncertainty; anti-dumping investigations; price wars/oversupply; monopoly fears (China dominating nickel); market distortion by state-backed Chinese companies; inequality in benefits (locals vs investors)
+Exclude when: also exclude when the core dispute is about prices, trade flows, or downstreaming incentives rather than state abuse or legality; then code as Economic & Industrial Policy Conflicts instead
+
+geopolitical_strategic
+----------------------
+Definition  : Conflicts in which the primary issue is international power rivalry, strategic dependence, state-to-state contestation, or global governance competition over critical minerals and supply chains.
+Signals     : US-China rivalry; China-West competition; WTO disputes framed as sovereignty or strategic conflict; dependency on China; strategic minerals; supply-chain security; critical minerals competition; EU standards versus Indonesia; energy-transition geopolitics; national security language; strategic balancing
+Key actors  : firms; investors; industry groups; governments acting as economic policymakers; trade authorities; foreign buyers/investors
+Include when: the conflict is primarily driven by commercial competition, industrial policy measures, trade remedies, pricing, investment structure, or distributive economic tensions
+Exclude when: the dispute is framed mainly as rivalry between states, strategic dependence, or global power competition over critical minerals; then code as Geopolitical & Strategic Conflicts instead; also exclude when environmental damage or labor abuse is the central grievance rather than the economic policy context; then code as the relevant substantive conflict type instead
+
