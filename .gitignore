@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.dropbox
+desktop.ini
+*.xlsx
+*.xls
+*.json
+ln_training/nli_conflict_model/
+ln_training/archive/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.png
