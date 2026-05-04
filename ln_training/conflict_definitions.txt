@@ -24,18 +24,21 @@ Signals     : permit manipulation; corruption; bribery; weak enforcement; illega
 Key actors  : central or local government institutions; police; military; regulator; NGOs; local community
 Include when: the conflict centers on legality, state conduct, procedural justice, coercion, corruption, or failure of governance
 Exclude when: the core dispute is about workplace conditions or wage grievances without state repression as the main mechanism; then code as Labour & Social Conflicts instead
+also exclude when the core dispute is about prices, trade flows, or downstreaming incentives rather than state abuse or legality; then code as Economic & Industrial Policy Conflicts instead
 
 economic_industrial
 -------------------
 Definition  : Conflicts in which the primary issue is market competition, industrial policy design, trade effects, price formation, or the distribution of economic benefits within the nickel value chain.
 Signals     : export ban/downstreaming uncertainty; anti-dumping investigations; price wars/oversupply; monopoly fears (China dominating nickel); market distortion by state-backed Chinese companies; inequality in benefits (locals vs investors)
-Exclude when: also exclude when the core dispute is about prices, trade flows, or downstreaming incentives rather than state abuse or legality; then code as Economic & Industrial Policy Conflicts instead
+Key actors  : firms; investors; industry groups; governments acting as economic policymakers; trade authorities; foreign buyers/investors
+Include when: the conflict is primarily driven by commercial competition, industrial policy measures, trade remedies, pricing, investment structure, or distributive economic tensions
+Exclude when: the dispute is framed mainly as rivalry between states, strategic dependence, or global power competition over critical minerals; then code as Geopolitical & Strategic Conflicts instead; also exclude when environmental damage or labor abuse is the central grievance rather than the economic policy context; then code as the relevant substantive conflict type instead
 
 geopolitical_strategic
 ----------------------
 Definition  : Conflicts in which the primary issue is international power rivalry, strategic dependence, state-to-state contestation, or global governance competition over critical minerals and supply chains.
 Signals     : US-China rivalry; China-West competition; WTO disputes framed as sovereignty or strategic conflict; dependency on China; strategic minerals; supply-chain security; critical minerals competition; EU standards versus Indonesia; energy-transition geopolitics; national security language; strategic balancing
-Key actors  : firms; investors; industry groups; governments acting as economic policymakers; trade authorities; foreign buyers/investors
-Include when: the conflict is primarily driven by commercial competition, industrial policy measures, trade remedies, pricing, investment structure, or distributive economic tensions
-Exclude when: the dispute is framed mainly as rivalry between states, strategic dependence, or global power competition over critical minerals; then code as Geopolitical & Strategic Conflicts instead; also exclude when environmental damage or labor abuse is the central grievance rather than the economic policy context; then code as the relevant substantive conflict type instead
+Key actors  : states; foreign governments; international organizations; diplomatic actors; global corporations when framed as strategic rather than commercial actors
+Include when: conflict is framed as state-level or global strategic competition, strategic dependence, geopolitical competition, or global governance of critical minerals
+Exclude when: the issue is primarily commercial or trade-economic, such as prices, oversupply, anti-dumping, trade flows, or investor competition without broader strategic framing; then code as Economic & Industrial Policy Conflicts instead
 
