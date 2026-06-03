@@ -1,4 +1,4 @@
-Structure of the subfolder ln_training: 
+Structure of the subfolder ln_training (needs to be updated): 
 
 NB1 loads the manually coded dataset (~590 labeled snippets drawn from 153 newspaper articles), explores the distribution of codes, and builds the binary training matrix used by the three training notebooks.
 
