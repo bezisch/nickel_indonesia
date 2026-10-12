@@ -1,3 +1,7 @@
+Structure of the subfolder ln_llm is the LLM role coding of Indonesian nickel news snippets. 
+
+This folder holds the HTML exports of the three notebooks that prepare the LLM coding (Claude Sonnet 5) and then read in and evaluate the manually validated results. Each notebook covers one role that a named actor can play in a news snippet about Indonesia's nickel sector.
+
 Structure of the subfolder ln_training:
 
 NB1 loads the manually coded dataset (~590 labeled snippets drawn from 153 newspaper articles), explores the distribution of codes, and builds the binary training matrix used by the three training notebooks.
